@@ -1,0 +1,354 @@
+#main{
+  padding:0 20px;
+  padding-top:85px;
+}
+#main h1{
+  color:#333333;
+  font-size:20px;
+  line-height:56px;
+  border-bottom:1px solid rgba(0,0,0,0.08);
+  font-weight:bold;
+}
+#main h2{
+  font-size:1.5em;
+  line-height:1.5;
+  font-weight:bold;
+  margin-bottom:25px;
+}
+#main .table tr{
+  cursor:auto;
+  user-select:none;
+  color: #333333;
+}
+#main .btn_box{
+  height:80px;
+  line-height:80px;
+}
+#main .input_box{
+  width:90%;
+  margin:auto;
+  margin-bottom:25px;
+  display:none;
+}
+#main .box_info{
+  display:block;
+}
+#main .input_box li{
+  width:49%;
+  display:inline-block;
+  height:50px;
+  line-height:50px;
+}
+#main .input_box li span{
+  text-align:right;
+  margin-right:1%;
+  font-size: 14px;
+}
+#main .input_box li input,
+#main .input_box li select,
+#main .input_box li textarea{
+  width:80%;
+  height:30px;
+  line-height:30px;
+  padding:0 10px;
+  box-sizing:border-box;
+  border:1px solid #D7D7D7;
+  vertical-align:middle;
+  border-radius:4px;
+}
+#main .article{
+  width:30%;
+  height:50px;
+  line-height:50px;
+  margin: 0 auto;
+  margin-top:14px;
+  margin-bottom: 40px;
+}
+#main .article select,
+#main .article input{
+  border:1px solid #41a8ee;
+  border-radius: 4px;
+  width:26%;
+  height:30px;
+  padding:0 10px;
+  box-sizing:border-box;
+  vertical-align:middle;
+}
+#main .article span{
+  height:30px;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  display:inline-block;
+  box-sizing:border-box;
+  border-radius:4px;
+  width:50px;
+  cursor:pointer;
+  background-color:#41a8ee;
+  user-select:none;
+  color: #ffffff;
+  margin:auto 15px;
+}
+#main .article span:last-child{
+  margin-left:0px;
+}
+#main .article input{
+  width:10%;
+  text-align:center;
+}
+#main .article .page{
+  text-align:center;
+  font-size:1.5em;
+  color:#3498db;
+}
+#main .article .pagecount{
+  cursor:auto;
+  width:100px;
+}
+#main .min_window{
+  width:20%;
+  height:215px;
+  background:#fff;
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:150px;
+  margin:auto;
+  border:1px solid #D7D7D7;
+  border-radius:10px;
+  z-index:10;
+  display:none;
+}
+#main .min_window h2{
+  width:90%;
+  margin:auto;
+  font-weight:bold;
+  font-size:1.5em;
+  line-height:3;
+  border-bottom:1px solid #e5e5e5;
+  color:#41a8ee;
+}
+#main .min_window ul{
+  width:90%;
+  margin:20px auto;
+}
+#main .min_window li{
+  display:block;
+  width:50%;
+  height:40px;
+  line-height:40px;
+  margin:auto;
+}
+#main .min_window li span{
+  display:inline-block;
+  width:30%;
+  text-align:right;
+  margin-right:2%;
+}
+#main .min_window li input,
+#main .min_window li select{
+  border:1px solid #d7d7d7;
+  width:100%;
+  padding:0 10px;
+  height:30px;
+  line-height:30px;
+  box-sizing:border-box;
+  vertical-align:middle;
+  border-radius: 4px;
+}
+#main .min_window div{
+  width:90%;
+  margin:auto;
+  height:80px;
+  line-height:80px;
+  border-top:1px solid #d7d7d7;
+}
+#main span.btn{
+  display:inline-block;
+  height:34px;
+  line-height:34px;
+  padding:0 20px;
+  border-radius:20px;
+  text-align:center;
+  transition:all 0.3s linear;
+  margin-right:10px;
+  cursor:pointer;
+  user-select:none;
+  font-size:14px;
+  border:1px solid #b0d9f5;
+  background:#fff;
+  color:#3498db;
+}
+#main span.btn:hover{
+  background:#41a8ee;
+  color:#ffffff;
+}
+#main .input_box li img{
+  width:50px;
+  height:50px;
+  cursor:pointer;
+}
+#main .mask{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:#000;
+  opacity:0.7;
+  z-index:5;
+  display:none;
+}
+#main div.min_mask,
+#main div.new_mask{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background:#000;
+  opacity:0.7;
+  z-index:15;
+  font-size:3em;
+  font-weight:bold;
+  border-radius:10px;
+  border-top:none;
+  text-align:center;
+  line-height:1.5;
+  color:#fff;
+}
+#main div.new_mask{
+  padding-top:85px;
+}
+#main i{
+  color:red;
+  font-size:2em;
+  display:inline-block;
+  vertical-align:middle;
+  margin-top:10px;
+}
+#main .min_window .bttns{
+  padding-top: 20px;
+  clear: both;
+}
+#main .min_window .bttns .cancel{
+  float: right;
+}
+#main .min_window .bttns .ok{
+  float: right;
+}
+#main .table .btn{
+  margin:0 10px;
+}
+#main .table img{
+  width:50px;
+  height:50px;
+}
+#main .input_box li input[type="date"],
+#main .input_box li input[type="month"]{
+  padding:4px 10px;
+}
+#main p.btn_box{
+  width:auto;
+  float:right;
+}
+#main .input_box .textarea{
+  height:100px;
+  width:100%;
+  margin-top:12px;
+}
+#main .input_box .textarea span{
+  width:7%;
+}
+#main .input_box .textarea textarea{
+  width:88%;
+  height:100px;
+}
+#main .window_img{
+  height:225px;
+  width:225px;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  border-radius:10px;
+  display:none;
+  z-index:20;
+}
+#main .img_box{
+  width:90%;
+  margin:auto;
+  margin-bottom:50px;
+}
+#main .img_box .new_btn{
+  display:block;
+  width:10%;
+  margin:15px auto;
+}
+#main .card{
+  width:200px;
+  height:300px;
+  display:inline-block;
+  margin:0px 5% 30px 5%;
+  position:relative;
+}
+#main .card div,
+#main .card textarea{
+  width:100%;
+  box-sizing:border-box;
+}
+#main .card div{
+  height:250px;
+  line-height:250px;
+  text-align:center;
+  font-size:14px;
+  cursor:pointer;
+  user-select:none;
+  border:2px dashed #ddd;
+}
+#main .card div img{
+  width:100%;
+  height:100%;
+  position:relative;
+  bottom:4px;
+}
+#main .card textarea{
+  height:50px;
+  border:1px solid #ddd;
+  padding:5px;
+}
+#main .card span{
+  position:absolute;
+  width:20px;
+  height:20px;
+  left:0;
+  right:0;
+  bottom:-25px;
+  margin:auto;
+  background:url("../../src/assets/x.png");
+  background-size:100%;
+  cursor:pointer;
+}
+#main input[type=file]{
+  display:none;
+}
+#main span.ptotal_btn{
+  cursor:auto;
+}
+#main ::-webkit-clear-button{
+  display:none;
+}
+#main ::-webkit-inner-spin-button{
+  display:none;
+}
+#main ::-webkit-calendar-picker-indicator {
+  border:1px solid #ccc;
+  border-radius:2px;
+  box-shadow:inset 0 1px #fff,0 1px #eee;
+  background-color:#eee;
+  background-image:linear-gradient(top,#f0f0f0,#e6e6e6);
+  color:#666;
+}
